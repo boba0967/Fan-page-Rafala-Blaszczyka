@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafał Błaszczyk • Oficjalny Fan Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+        body { 
+            font-family: 'Roboto', sans-serif; 
+            margin: 0; 
+            background: linear-gradient(#0f0f1e, #1a1a2e); 
+            color: #eee; 
+            line-height: 1.6;
+        }
+        header { 
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('https://i.ytimg.com/vi/H2cVzd1Z4Zo/maxresdefault.jpg') center/cover no-repeat; 
+            height: 100vh; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            text-align: center; 
+            position: relative;
+        }
+        .navbar {
+            position: fixed; top: 0; width: 100%; background: rgba(0,0,0,0.95); padding: 15px 0; z-index: 1000;
+            display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;
+        }
+        .navbar a { color: #ffcc00; text-decoration: none; font-weight: 500; padding: 10px 20px; transition: 0.3s; }
+        .navbar a:hover { background: #ffcc00; color: #000; border-radius: 30px; }
+        
+        h1 { font-size: 4.5rem; margin: 0; text-shadow: 0 0 20px rgba(255,204,0,0.8); }
+        .subtitle { font-size: 1.8rem; opacity: 0.95; }
+        
+        section { padding: 80px 20px; max-width: 1100px; margin: 0 auto; }
+        h2 { 
+            color: #ffcc00; 
+            font-size: 2.8rem; 
+            text-align: center; 
+            margin-bottom: 40px; 
+            border-bottom: 3px solid #ffcc00; 
+            padding-bottom: 15px;
+        }
+        .card { 
+            background: rgba(255,255,255,0.08); 
+            border-radius: 15px; 
+            padding: 25px; 
+            margin: 20px 0; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: 0.3s;
+        }
+        .card:hover { transform: translateY(-10px); }
+        
+        .video-container { position: relative; padding-top: 56.25%; }
+        iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 15px; }
+        
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; }
+        .gallery img { width: 100%; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.6); transition: 0.3s; }
+        .gallery img:hover { transform: scale(1.05); }
+        
+        .btn { 
+            background: #ffcc00; color: #000; padding: 15px 35px; border-radius: 50px; 
+            font-weight: bold; text-transform: uppercase; text-decoration: none; display: inline-block; margin: 10px;
+            transition: 0.3s;
+        }
+        .btn:hover { background: #fff; transform: scale(1.1); }
+        
+        footer { background: #000; padding: 50px 20px; text-align: center; font-size: 0.95rem; opacity: 0.85; }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <a href="#bio">O Rafale</a>
+        <a href="#muzyka">Muzyka</a>
+        <a href="#skecze">Z Życia Bibliotekarza</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#linki">Linki</a>
+    </nav>
+
+    <!-- HERO -->
+    <header>
+        <div>
+            <h1>Rafał Błaszczyk</h1>
+            <p class="subtitle">Bibliotekarz • Piosenkarz • Twórca z serca</p>
+            <a href="https://www.youtube.com/@RafaBaszczyk-po7wi" target="_blank" class="btn">Subskrybuj kanał →</a>
+        </div>
+    </header>
+
+    <!-- BIO -->
+    <section id="bio">
+        <h2>O Rafale</h2>
+        <div class="card">
+            <p><strong>Rafał Błaszczyk</strong> na co dzień pracuje jako bibliotekarz w Komornicy. W wolnym czasie tworzy szczere, osobiste piosenki i humorystyczne skecze, które podbijają serca widzów.</p>
+            <p>Jego największy utwór <strong>„Wartość”</strong> to prawdziwa terapia w formie piosenki – rozliczenie z przeszłością, teraźniejszością i tym, co jeszcze przed nami. Zero ściemy, maksimum autentyczności.</p>
+            <p>Poza muzyką prowadzi cykl <strong>„Z ŻYCIA BIBLIOTEKARZA”</strong> – zabawne odcinki, w których obala mity o pracy w bibliotece i robi genialne parodie (np. „Miłość w Zakopanem” w wersji bibliotekarskiej).</p>
+        </div>
+    </section>
+
+    <!-- MUZYKA + TELEDYSKI -->
+    <section id="muzyka" style="background: #111;">
+        <h2>Twórczość muzyczna</h2>
+        
+        <div class="card">
+            <h3>🎵 Wartość (2025) – oficjalny teledysk</h3>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/H2cVzd1Z4Zo" title="Wartość - Rafał Błaszczyk" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>☀️ Karaibskie słońce</h3>
+            <p>Pełen energii letni kawałek – dostępny na jego kanale.</p>
+        </div>
+
+        <div class="card">
+            <h3>🇲🇽 Meksyk, moja miłość</h3>
+            <p>Romantyczna i egzotyczna piosenka z duszą.</p>
+        </div>
+
+        <p style="text-align:center; margin-top:30px;">
+            <a href="https://www.youtube.com/@RafaBaszczyk-po7wi" target="_blank" class="btn">Wszystkie piosenki na YouTube</a>
+        </p>
+    </section>
+
+    <!-- SKECZE -->
+    <section id="skecze">
+        <h2>Z ŻYCIA BIBLIOTEKARZA – cała seria</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px;">
+            <div class="card">Odcinek 2 – słynna parodia „Miłość w Zakopanem” (bibliotekarska wersja)<br>
+                <a href="https://www.youtube.com/watch?v=zpyX0g5MaA0" target="_blank">Obejrzyj →</a>
+            </div>
+            <div class="card">Odcinek 5 – bibliotekarz na planie filmowym</div>
+            <div class="card">Odcinek 8 – miłość do gór</div>
+            <div class="card">Odcinek 9 – ile ma lat bibliotekarz?</div>
+            <div class="card">Odcinek 10 (ostatni) – finał serii</div>
+        </div>
+        <p style="text-align:center;"><a href="https://www.youtube.com/@RafaBaszczyk-po7wi" target="_blank" class="btn">Cała playlista skeczy</a></p>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria" style="background: #111;">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="https://i.ytimg.com/vi/H2cVzd1Z4Zo/maxresdefault.jpg" alt="Wartość">
+            <img src="https://i.ytimg.com/vi/zpyX0g5MaA0/maxresdefault.jpg" alt="Parodia Miłość w Zakopanem">
+            <img src="https://i.ytimg.com/vi/uWMu9wll690/maxresdefault.jpg" alt="Odcinek 9">
+            <img src="https://i.ytimg.com/vi/cX_xRMxNvQ4/maxresdefault.jpg" alt="Odcinek 10">
+        </div>
+    </section>
+
+    <!-- LINKI -->
+    <section id="linki">
+        <h2>Śledź Rafała</h2>
+        <div style="text-align:center;">
+            <a href="https://www.youtube.com/@RafaBaszczyk-po7wi" target="_blank" class="btn">YouTube</a>
+            <a href="https://www.youtube.com/watch?v=H2cVzd1Z4Zo" target="_blank" class="btn">Teledysk „Wartość”</a>
+            <a href="https://www.youtube.com/watch?v=zpyX0g5MaA0" target="_blank" class="btn">Parodia Miłość w Zakopanem</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>❤️ Nieoficjalny fan page stworzony specjalnie dla Ciebie<br>
+        Rafał Błaszczyk – człowiek, który udowadnia, że można być bibliotekarzem i artystą jednocześnie.</p>
+        <p>Chcesz jeszcze więcej (tekst „Wartości”, forum fanów, ciemniejszy styl)? Napisz – zrobię update w 2 minuty!</p>
+    </footer>
+
+</body>
+</html>
